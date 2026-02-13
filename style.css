@@ -1,0 +1,34 @@
+h1{
+    color: aqua;
+    font-size: 18px;
+}
+img{
+    width: 100;
+    height: 100px;
+    border-radius:10px;
+    object-fit: cover;
+}
+.list1 {
+    color: cadetblue;
+}
+
+#para{
+   color: aquamarine; 
+}
+
+div > div >h2 {
+color: red;
+}
+div h2 {
+    color: blue;
+}
+div + p {
+    color: green;
+}
+div ~ h2 {
+    color: purple;
+}
+#button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
